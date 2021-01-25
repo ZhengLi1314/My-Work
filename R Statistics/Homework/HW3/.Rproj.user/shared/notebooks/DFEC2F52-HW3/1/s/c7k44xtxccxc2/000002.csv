@@ -1,0 +1,1 @@
+"0","yearMerged1 <- aggregate(merged$vol, by=list(merged$fyear, merged$cusip8, merged$at), FUN=sum, na.rm=TRUE)"

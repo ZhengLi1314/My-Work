@@ -1,0 +1,2 @@
+"0","plot(cbind(INTCc,GMc,GEc), ylab = ""Close Price"", main = ""INTC, GM, GE Price Changes"")"
+"0",""

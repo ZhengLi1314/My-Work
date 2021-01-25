@@ -1,0 +1,1 @@
+"0","plot(cbind(INTCr,GMr,GEr), ylab = ""Close Price"", main = ""INTC, GM, GE daily return rates"")"

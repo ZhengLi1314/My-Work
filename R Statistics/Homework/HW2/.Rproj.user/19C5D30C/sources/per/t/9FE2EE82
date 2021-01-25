@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585881258161.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "453020117",
+    "id" : "9FE2EE82",
+    "lastKnownWriteTime" : 1585881723,
+    "last_content_update" : 1585881723514,
+    "path" : "~/R/Homework/HW2/HW 2.Rmd",
+    "project_path" : "HW 2.Rmd",
+    "properties" : {
+        "cursorPosition" : "85,45",
+        "scrollLine" : "78"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

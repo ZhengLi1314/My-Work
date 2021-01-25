@@ -1,0 +1,5 @@
+"0","compustat <- read_excel(""COMPUSTAT.xlsx"")"
+"0","crsp <- read_excel(""CRSP.xlsx"")"
+"0",""
+"0","merged <- merge(compustat, crsp, by = c(""fyear"",""cusip8""))"
+"0",""

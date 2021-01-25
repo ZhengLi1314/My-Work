@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580845670519.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2314976630",
+    "id" : "7A44CA9A",
+    "lastKnownWriteTime" : 1580846314,
+    "last_content_update" : 1580846314,
+    "path" : "~/R Statistics/Graphical images/histogram.R",
+    "project_path" : "histogram.R",
+    "properties" : {
+        "cursorPosition" : "11,47",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

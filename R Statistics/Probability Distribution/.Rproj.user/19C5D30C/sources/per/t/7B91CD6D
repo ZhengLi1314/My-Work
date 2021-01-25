@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581450775062.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1543211602",
+    "id" : "7B91CD6D",
+    "lastKnownWriteTime" : 1581444494,
+    "last_content_update" : 1581444494,
+    "path" : "~/R Statistics/Probability Distribution/Binomial.R",
+    "project_path" : "Binomial.R",
+    "properties" : {
+        "cursorPosition" : "5,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

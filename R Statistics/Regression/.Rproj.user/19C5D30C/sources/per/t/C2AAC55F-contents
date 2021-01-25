@@ -1,0 +1,85 @@
+---
+title: "HW 2 QF 104"
+author: "Zheng Li"
+date: "4/2/2020"
+output: pdf_document
+---
+
+```{r}
+library(quantmod)
+library(moments)
+
+getSymbols("INTC")
+getSymbols("GM")
+getSymbols("GE")
+
+head(INTC)
+INTCc <- INTC$INTC.Close["20190101/20200301"]
+GMc <- GM$GM.Close["20190101/20200301"]
+GEc <- GE$GE.Close["20190101/20200301"]
+
+INTCr <- dailyReturn(INTC)
+GMr <- dailyReturn(GM)
+GEr <- dailyReturn(GE)
+
+```
+
+
+```{r}
+plot(cbind(INTCc,GMc,GEc), ylab = "Close Price", main = "INTC, GM, GE Price Changes")
+
+```
+
+
+```{r}
+plot(cbind(INTCr,GMr,GEr), ylab = "Close Price", main = "INTC, GM, GE daily return rates")
+```
+
+
+```{r}
+cat("Mean of INTC:", mean(INTCc))
+cat("Standard Deviation of INTC:", sd(INTCc))
+cat("Skewness of INTC:", skewness(INTCc))
+cat("Kurtosis of INTC:", kurtosis(INTCc), "\n")
+
+cat("Mean of GM:", mean(GMc))
+cat("Standard Deviation of GM:", sd(GMc))
+cat("Skewness of GM:", skewness(GMc))
+cat("Kurtosis of GM:", kurtosis(GMc), "\n")
+
+cat("Mean of GE:", mean(GEc))
+cat("Standard Deviation of GE:", sd(GEc))
+cat("Skewness of GE:", skewness(GEc))
+cat("Kurtosis of GE:", kurtosis(GEc), "\n")
+
+
+```
+
+
+```{r}
+hist(INTCc)
+hist(GMc)
+hist(GEc)
+print("GE price histogram is closer to a normal distribution")
+
+```
+
+
+```{r}
+INTCS <- as.integer(3000/coredata(INTC$INTC.Open[1]))
+GMS <- as.integer(2000/coredata(GM$GM.Open[1]))
+GES <- as.integer(5000/coredata(GE$GE.Open[1]))
+value <- (INTCc * INTCS) + (GMc * GMS) + (GEc * GES)
+
+png(file = "PortfolioValue.png")
+plot(value)
+dev.off()
+!(PortfolioValue.png)
+cat("The final return rate is", 1 + (value[length(value)] - 10000) / 10000)
+  
+
+```
+
+
+
+

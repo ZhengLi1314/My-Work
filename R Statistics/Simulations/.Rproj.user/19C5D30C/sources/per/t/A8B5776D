@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582316932270.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4275546654",
+    "id" : "A8B5776D",
+    "lastKnownWriteTime" : 1582317212,
+    "last_content_update" : 1582317212288,
+    "path" : "~/R/Homework/HW1/R104 classwork markdown.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "19,0",
+        "docOutlineVisible" : "0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "2",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

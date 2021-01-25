@@ -1,0 +1,7 @@
+"0","INTCS <- as.integer(3000/coredata(INTCo[1]))"
+"0","GMS <- as.integer(2000/coredata(GMo[1]))"
+"0","GES <- as.integer(5000/coredata(GEo[1]))"
+"0","value <- (INTCc * INTCS) + (GMc * GMS) + (GEc * GES)"
+"0",""
+"0","png(file = ""PortfolioValue.png"")"
+"0","plot(value)"

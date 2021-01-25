@@ -1,0 +1,7 @@
+Za<-qnorm(0.01,lower.tail = FALSE)
+Zb<-qnorm(0.10,lower.tail = FALSE)
+sigma<-0.18
+MUo<-3
+MUa<-2.9375
+n = ((Za+Zb)*sigma)/(MUo-MUa)
+n*n

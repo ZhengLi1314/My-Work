@@ -21,6 +21,7 @@ import pandas_datareader as dr
 import numpy as np
 
 xasd = 1 + 1
+print(xasd)
 
 #Get MSFT data from Yahoo Finance
 msft = dr.data.get_data_yahoo('msft', start = '2018-01-01', 
